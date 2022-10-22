@@ -119,6 +119,7 @@
           var value = $(this).val().toLowerCase();
           $(".card").filter(function() {
             $(this).toggle($(this).find('h5').text().toLowerCase().indexOf(value) > -1)
+            $(this).toggle($(this).find('#cardContent').text().toLowerCase().indexOf(value) > -1)
           });
         });
       });
