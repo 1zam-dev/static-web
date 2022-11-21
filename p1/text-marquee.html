@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section-home-marquee">
+      <div class="home-marquee_text-wrapper">
+        <div class="home-marquee_text is-outlined">Imprint Genius</div>
+        <div class="home-marquee_text">Imprint Genius</div>
+        <div class="home-marquee_text is-outlined">Imprint Genius</div>
+        <div class="home-marquee_text">Imprint Genius</div>
+        <div class="home-marquee_text is-outlined">Imprint Genius</div>
+        <div class="home-marquee_text">Imprint Genius</div>
+      </div>
+    </section>
+  </body>
+
+  <style>
+    .home-marquee_text.is-outlined {
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-stroke: 1px #060640;
+    }
+    .home-marquee_text {
+      margin-right: 2vw;
+      margin-left: 2vw;
+      font-size: 4vw;
+      line-height: 1;
+      font-weight: 600;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .home-marquee_text-wrapper {
+      display: flex;
+      width: 200%;
+      margin: 70px 0;
+      position: absolute;
+      animation: marquee 20s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: -100%;
+      }
+    }
+  </style>
+</html>

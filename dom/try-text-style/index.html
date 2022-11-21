@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Exercises</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="cart border mx-auto p-4 mt-5 rounded" style="width: 32rem;">
+    <div class="cart-body">
+      <p style="font-size: 30px;">The quick brown fox</p>
+    </div>
+
+    <section>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Font Size:</label>
+        <input type="text" class="form-control" id="input-font-size" placeholder="Input font size">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Font Weight:</label>
+        <input type="text" class="form-control" id="input-font-weight" placeholder="Input font weight">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Color:</label>
+        <input type="text" class="form-control" id="input-text-color" placeholder="Input color">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Font Family:</label>
+        <input type="text" class="form-control" id="input-font-family" placeholder="Font Family:">
+      </div>
+    </section>
+
+
+    <section>
+      <button type="button" class="btn btn-outline-primary" onclick="handleAdd()">Apply</button>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

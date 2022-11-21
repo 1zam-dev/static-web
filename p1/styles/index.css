@@ -1,0 +1,19 @@
+span {
+  font-size: 2rem;
+}
+
+.card {
+  width: 19rem;
+}
+
+.link-hover {
+  color: #212529!important;
+}
+
+.link-hover:focus, .link-hover:hover {
+  color: #fff !important;
+}
+
+.card-image {
+  height: 20rem;
+}
